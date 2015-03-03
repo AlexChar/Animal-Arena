@@ -1,0 +1,225 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'karma-mocha',
+1 verbose cli   'karma-chai',
+1 verbose cli   'karma-phantomjslauncher' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json Animal-Arena@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'karma-mocha', null ]
+8 verbose cache add name=undefined spec="karma-mocha" args=["karma-mocha",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'karma-mocha',
+9 verbose parsed url   path: 'karma-mocha',
+9 verbose parsed url   href: 'karma-mocha' }
+10 verbose cache add [ 'karma-chai', null ]
+11 verbose cache add name=undefined spec="karma-chai" args=["karma-chai",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'karma-chai',
+12 verbose parsed url   path: 'karma-chai',
+12 verbose parsed url   href: 'karma-chai' }
+13 verbose cache add [ 'karma-phantomjslauncher', null ]
+14 verbose cache add name=undefined spec="karma-phantomjslauncher" args=["karma-phantomjslauncher",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'karma-phantomjslauncher',
+15 verbose parsed url   path: 'karma-phantomjslauncher',
+15 verbose parsed url   href: 'karma-phantomjslauncher' }
+16 silly lockFile 1e7ec470-karma-mocha karma-mocha
+17 verbose lock karma-mocha C:\Users\Alexandros\AppData\Roaming\npm-cache\1e7ec470-karma-mocha.lock
+18 silly lockFile 693be857-karma-chai karma-chai
+19 verbose lock karma-chai C:\Users\Alexandros\AppData\Roaming\npm-cache\693be857-karma-chai.lock
+20 silly lockFile b188b254-karma-phantomjslauncher karma-phantomjslauncher
+21 verbose lock karma-phantomjslauncher C:\Users\Alexandros\AppData\Roaming\npm-cache\b188b254-karma-phantomjslauncher.lock
+22 silly lockFile 1e7ec470-karma-mocha karma-mocha
+23 silly lockFile 1e7ec470-karma-mocha karma-mocha
+24 silly lockFile b188b254-karma-phantomjslauncher karma-phantomjslauncher
+25 silly lockFile b188b254-karma-phantomjslauncher karma-phantomjslauncher
+26 silly lockFile 693be857-karma-chai karma-chai
+27 silly lockFile 693be857-karma-chai karma-chai
+28 verbose addNamed [ 'karma-mocha', '' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile 935570b3-karma-mocha karma-mocha@
+31 verbose lock karma-mocha@ C:\Users\Alexandros\AppData\Roaming\npm-cache\935570b3-karma-mocha.lock
+32 verbose addNamed [ 'karma-phantomjslauncher', '' ]
+33 verbose addNamed [ null, '*' ]
+34 silly lockFile 8922444d-karma-phantomjslauncher karma-phantomjslauncher@
+35 verbose lock karma-phantomjslauncher@ C:\Users\Alexandros\AppData\Roaming\npm-cache\8922444d-karma-phantomjslauncher.lock
+36 verbose addNamed [ 'karma-chai', '' ]
+37 verbose addNamed [ null, '*' ]
+38 silly lockFile 0676974a-karma-chai karma-chai@
+39 verbose lock karma-chai@ C:\Users\Alexandros\AppData\Roaming\npm-cache\0676974a-karma-chai.lock
+40 silly addNameRange { name: 'karma-mocha', range: '*', hasData: false }
+41 silly addNameRange { name: 'karma-phantomjslauncher', range: '*', hasData: false }
+42 silly addNameRange { name: 'karma-chai', range: '*', hasData: false }
+43 verbose request where is /karma-phantomjslauncher
+44 verbose request registry https://registry.npmjs.org/
+45 verbose request id d65d639cb2b761a5
+46 verbose url raw /karma-phantomjslauncher
+47 verbose url resolving [ 'https://registry.npmjs.org/', './karma-phantomjslauncher' ]
+48 verbose url resolved https://registry.npmjs.org/karma-phantomjslauncher
+49 verbose request where is https://registry.npmjs.org/karma-phantomjslauncher
+50 info trying registry request attempt 1 at 21:32:07
+51 http GET https://registry.npmjs.org/karma-phantomjslauncher
+52 verbose request where is /karma-mocha
+53 verbose request registry https://registry.npmjs.org/
+54 verbose url raw /karma-mocha
+55 verbose url resolving [ 'https://registry.npmjs.org/', './karma-mocha' ]
+56 verbose url resolved https://registry.npmjs.org/karma-mocha
+57 verbose request where is https://registry.npmjs.org/karma-mocha
+58 info trying registry request attempt 1 at 21:32:07
+59 verbose etag "1MV6F5PQQP90QT2WBNEHKEA2M"
+60 http GET https://registry.npmjs.org/karma-mocha
+61 verbose request where is /karma-chai
+62 verbose request registry https://registry.npmjs.org/
+63 verbose url raw /karma-chai
+64 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chai' ]
+65 verbose url resolved https://registry.npmjs.org/karma-chai
+66 verbose request where is https://registry.npmjs.org/karma-chai
+67 info trying registry request attempt 1 at 21:32:07
+68 verbose etag "C40FDNHLK0I8G514IICXW8WU2"
+69 http GET https://registry.npmjs.org/karma-chai
+70 http 200 https://registry.npmjs.org/karma-chai
+71 silly registry.get cb [ 200,
+71 silly registry.get   { date: 'Tue, 03 Mar 2015 19:32:09 GMT',
+71 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+71 silly registry.get     etag: '"E7KEP2RCQJ3BI76M8BVHX6RJP"',
+71 silly registry.get     'content-type': 'application/json',
+71 silly registry.get     'cache-control': 'max-age=60',
+71 silly registry.get     'content-length': '5223',
+71 silly registry.get     'accept-ranges': 'bytes',
+71 silly registry.get     via: '1.1 varnish',
+71 silly registry.get     age: '42',
+71 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+71 silly registry.get     'x-cache': 'HIT',
+71 silly registry.get     'x-cache-hits': '1',
+71 silly registry.get     'x-timer': 'S1425411129.525245,VS0,VE0',
+71 silly registry.get     vary: 'Accept',
+71 silly registry.get     'keep-alive': 'timeout=10, max=50',
+71 silly registry.get     connection: 'Keep-Alive' } ]
+72 http 304 https://registry.npmjs.org/karma-mocha
+73 silly registry.get cb [ 304,
+73 silly registry.get   { date: 'Tue, 03 Mar 2015 19:32:09 GMT',
+73 silly registry.get     server: 'Apache',
+73 silly registry.get     via: '1.1 varnish',
+73 silly registry.get     'last-modified': 'Tue, 03 Mar 2015 19:32:09 GMT',
+73 silly registry.get     'cache-control': 'max-age=60',
+73 silly registry.get     etag: '"1MV6F5PQQP90QT2WBNEHKEA2M"',
+73 silly registry.get     age: '41',
+73 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+73 silly registry.get     'x-cache': 'HIT',
+73 silly registry.get     'x-cache-hits': '1',
+73 silly registry.get     'x-timer': 'S1425411129.535990,VS0,VE0',
+73 silly registry.get     vary: 'Accept',
+73 silly registry.get     'content-length': '0',
+73 silly registry.get     'keep-alive': 'timeout=10, max=50',
+73 silly registry.get     connection: 'Keep-Alive' } ]
+74 verbose etag https://registry.npmjs.org/karma-mocha from cache
+75 silly addNameRange number 2 { name: 'karma-chai', range: '*', hasData: true }
+76 silly addNameRange versions [ 'karma-chai', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+77 verbose addNamed [ 'karma-chai', '0.1.0' ]
+78 verbose addNamed [ '0.1.0', '0.1.0' ]
+79 silly lockFile dd27daab-karma-chai-0-1-0 karma-chai@0.1.0
+80 verbose lock karma-chai@0.1.0 C:\Users\Alexandros\AppData\Roaming\npm-cache\dd27daab-karma-chai-0-1-0.lock
+81 silly addNameRange number 2 { name: 'karma-mocha', range: '*', hasData: true }
+82 silly addNameRange versions [ 'karma-mocha',
+82 silly addNameRange   [ '0.0.1',
+82 silly addNameRange     '0.0.2',
+82 silly addNameRange     '0.0.3',
+82 silly addNameRange     '0.0.4',
+82 silly addNameRange     '0.1.0',
+82 silly addNameRange     '0.1.1',
+82 silly addNameRange     '0.1.3',
+82 silly addNameRange     '0.1.4',
+82 silly addNameRange     '0.1.6',
+82 silly addNameRange     '0.1.7',
+82 silly addNameRange     '0.1.8',
+82 silly addNameRange     '0.1.9',
+82 silly addNameRange     '0.1.10' ] ]
+83 verbose addNamed [ 'karma-mocha', '0.1.10' ]
+84 verbose addNamed [ '0.1.10', '0.1.10' ]
+85 silly lockFile 60f7092d-karma-mocha-0-1-10 karma-mocha@0.1.10
+86 verbose lock karma-mocha@0.1.10 C:\Users\Alexandros\AppData\Roaming\npm-cache\60f7092d-karma-mocha-0-1-10.lock
+87 silly lockFile 60f7092d-karma-mocha-0-1-10 karma-mocha@0.1.10
+88 silly lockFile 60f7092d-karma-mocha-0-1-10 karma-mocha@0.1.10
+89 silly lockFile 935570b3-karma-mocha karma-mocha@
+90 silly lockFile 935570b3-karma-mocha karma-mocha@
+91 silly lockFile dd27daab-karma-chai-0-1-0 karma-chai@0.1.0
+92 silly lockFile dd27daab-karma-chai-0-1-0 karma-chai@0.1.0
+93 silly lockFile 0676974a-karma-chai karma-chai@
+94 silly lockFile 0676974a-karma-chai karma-chai@
+95 http 404 https://registry.npmjs.org/karma-phantomjslauncher
+96 verbose headers { date: 'Tue, 03 Mar 2015 19:32:09 GMT',
+96 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+96 verbose headers   'content-type': 'application/json',
+96 verbose headers   'cache-control': 'max-age=0',
+96 verbose headers   'content-length': '52',
+96 verbose headers   'accept-ranges': 'bytes',
+96 verbose headers   via: '1.1 varnish',
+96 verbose headers   age: '0',
+96 verbose headers   'x-served-by': 'cache-fra1231-FRA',
+96 verbose headers   'x-cache': 'MISS',
+96 verbose headers   'x-cache-hits': '0',
+96 verbose headers   'x-timer': 'S1425411129.519406,VS0,VE426',
+96 verbose headers   'keep-alive': 'timeout=10, max=50',
+96 verbose headers   connection: 'Keep-Alive' }
+97 silly registry.get cb [ 404,
+97 silly registry.get   { date: 'Tue, 03 Mar 2015 19:32:09 GMT',
+97 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+97 silly registry.get     'content-type': 'application/json',
+97 silly registry.get     'cache-control': 'max-age=0',
+97 silly registry.get     'content-length': '52',
+97 silly registry.get     'accept-ranges': 'bytes',
+97 silly registry.get     via: '1.1 varnish',
+97 silly registry.get     age: '0',
+97 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+97 silly registry.get     'x-cache': 'MISS',
+97 silly registry.get     'x-cache-hits': '0',
+97 silly registry.get     'x-timer': 'S1425411129.519406,VS0,VE426',
+97 silly registry.get     'keep-alive': 'timeout=10, max=50',
+97 silly registry.get     connection: 'Keep-Alive' } ]
+98 silly lockFile 8922444d-karma-phantomjslauncher karma-phantomjslauncher@
+99 silly lockFile 8922444d-karma-phantomjslauncher karma-phantomjslauncher@
+100 error 404 404 Not Found: karma-phantomjslauncher
+100 error 404
+100 error 404 'karma-phantomjslauncher' is not in the npm registry.
+100 error 404 You should bug the author to publish it
+100 error 404 It was specified as a dependency of 'Animal-Arena'
+100 error 404
+100 error 404 Note that you can also install from a
+100 error 404 tarball, folder, or http url, or git url.
+101 error System Windows_NT 6.1.7601
+102 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "karma-mocha" "karma-chai" "karma-phantomjslauncher"
+103 error cwd C:\Users\Alexandros\Documents\GitHub\Animal-Arena
+104 error node -v v0.10.32
+105 error npm -v 1.4.28
+106 error code E404
+107 verbose exit [ 1, true ]

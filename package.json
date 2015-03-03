@@ -1,0 +1,36 @@
+{
+  "name": "Animal-Arena",
+  "version": "1.0.0",
+  "description": "An animal arena using angularjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexChar/Animal-Arena.git"
+  },
+  "author": "Alexandros Charizopoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexChar/Animal-Arena/issues"
+  },
+  "homepage": "https://github.com/AlexChar/Animal-Arena",
+  "dependencies": {
+    "browser-sync": "^2.2.1",
+    "chai": "^2.1.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "gulp-sass": "^1.3.3",
+    "jshint-stylish": "^1.0.1",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "devDependencies": {
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0"
+  }
+}
