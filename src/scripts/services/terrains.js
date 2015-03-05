@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module('animal-arena')
-    .service('Terrains', function(TERRAINS_COLLECTION) {
+    .service('Terrains', function (TERRAINS_COLLECTION) {
 
         var Terrains = this;
 
@@ -18,6 +18,10 @@ angular.module('animal-arena')
             }
 
             return undefined;
+        };
+
+        Terrains.getRandomTerrain = function() {
+            return TERRAINS_COLLECTION[Math.floor(Math.random() * TERRAINS_COLLECTION.length)];
         };
 
     });

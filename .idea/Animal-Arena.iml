@@ -8,6 +8,8 @@
     <orderEntry type="library" name="Animal-Arena node_modules" level="project" />
     <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="angularjs" level="project" />
+    <orderEntry type="library" name="mocha-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="chai-DefinitelyTyped" level="application" />
   </component>
 </module>
 

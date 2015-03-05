@@ -22,6 +22,11 @@ describe('Animals', function () {
             var animal = Animals.find('i_dont_exist');
             should.not.exist(animal);
         }));
+
+        it('should return a random animal', inject(function (Animals) {
+            var animal = Animals.getRandomAnimal();
+            should.exist(animal);
+        }));
     });
 
 });

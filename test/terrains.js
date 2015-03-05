@@ -27,6 +27,11 @@ describe('Terrains', function () {
             var terrain = Terrains.find('swamp');
             terrain.should.have.property('location')
         }));
+
+        it('should return a random terrain', inject(function (Terrains) {
+            var terrain = Terrains.getRandomTerrain();
+            should.exist(terrain);
+        }));
     });
 
 });
