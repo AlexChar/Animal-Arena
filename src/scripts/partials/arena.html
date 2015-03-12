@@ -1,7 +1,8 @@
 <div class="loader" ng-show="!arena.matchup">
     Generating matchup...
 </div>
-
 <div ng-show="arena.matchup">
+    <div animal-card="arena.matchup.opponent"></div>
+    <div terrain-card="arena.matchup.terrain"></div>
     <pre>{{ arena.matchup | json }}</pre>
 </div>
