@@ -2,8 +2,20 @@
 
 angular
     .module('animal-arena', [
-        'LocalStorageModule'
+        'LocalStorageModule',
+        'ui.router'
     ])
-    .config(function(localStorageServiceProvider) {
-        localStorageServiceProvider.setPrefix('animal-arena')
+    .config(function(localStorageServiceProvider, $stateProvider, $urlRouterProvider) {
+
+        $urlRouterProvider.otherwise('/');
+
+        $stateProvider
+            .state('arena', {
+                url: '/arena',
+                templateUrl: 'scripts/partials/arena.html',
+                controllerAs: 'arena',
+                controller: 'ArenaCtrl'
+            });
+
+        localStorageServiceProvider.setPrefix('animal-arena');
     });
