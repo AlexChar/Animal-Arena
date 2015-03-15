@@ -5,10 +5,19 @@ angular.module('animal-arena')
 
         var Arena = this;
         var playedMatches = Storage.load('matches') || [];
+        var favoriteAnimals = Storage.load('favorites') || {};
 
         var weights = {
           ferocity: 1,
           tenacity: 0.8
+        };
+
+        Arena.getPlayedMatches = function () {
+            return playedMatches;
+        };
+
+        Arena.getFavoriteAnimals = function () {
+            return favoriteAnimals;
         };
 
         Arena.generateMatchup = function () {
@@ -58,7 +67,15 @@ angular.module('animal-arena')
                 winner: outcome
             });
 
+            if (!favoriteAnimals[playerAnimal.id]) {
+                favoriteAnimals[playerAnimal.id] = 1;
+            }
+            else {
+                favoriteAnimals[playerAnimal.id]++;
+            }
+
             Storage.save('matches', playedMatches);
+            Storage.save('favorites', favoriteAnimals);
 
             return outcome;
         };

@@ -15,7 +15,14 @@ angular
                 templateUrl: 'scripts/partials/arena.html',
                 controllerAs: 'arena',
                 controller: 'ArenaCtrl'
+            })
+            .state('dashboard', {
+                url: '/',
+                templateUrl: 'scripts/partials/dashboard.html',
+                controllerAs: 'dashboard',
+                controller: 'DashboardCtrl'
             });
+
 
         localStorageServiceProvider.setPrefix('animal-arena');
     });
