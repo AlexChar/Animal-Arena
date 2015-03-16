@@ -26,3 +26,9 @@ angular
 
         localStorageServiceProvider.setPrefix('animal-arena');
     });
+
+angular.module('exceptionOverride', []).factory('$exceptionHandler', function () {
+    return function (exception, cause) {
+        Bugsnag.notifyException(exception, {diagnostics:{cause: cause}});
+    };
+});
