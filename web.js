@@ -5,4 +5,4 @@ var gzippo = require('gzippo');
 var app = express();
 
 app.use(gzippo.staticGzip('dist'));
-app.listen(process.env.PORT || 5000);
+app.listen(5000);
